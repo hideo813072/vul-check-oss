@@ -3,7 +3,7 @@ Documentation
 Get Involved
 Help
 Search docs
-Upcoming Critical PHP Security Release
+PHP 8.5.13 Released!
 Getting Started
 Introduction
 A simple tutorial
