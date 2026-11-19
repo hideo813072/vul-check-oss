@@ -92,6 +92,22 @@ def now():
     return datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
 
 
+def write_report(found):
+    """CHANGES_FILE が指定され、変更があれば通知用Markdownを書く(Issue本文に使う)。"""
+    path = os.environ.get("CHANGES_FILE")
+    if not path or not found:
+        return
+    md = [f"{len(found)} 件のページで更新を検出しました。", ""]
+    for name, title, url, added, nrem in found:
+        md.append(f"### {name} / [{title}]({url})")
+        md.append(f"追加 {len(added)} 行 / 削除 {nrem} 行")
+        md += [f"- {l[:200]}" for l in added[:10]]
+        if len(added) > 10:
+            md.append(f"- …ほか {len(added) - 10} 行")
+        md.append("")
+    Path(path).write_text("\n".join(md)[:60000], encoding="utf-8")
+
+
 def main():
     conf = json.loads(SOURCES.read_text(encoding="utf-8"))
     old = {}
@@ -102,6 +118,7 @@ def main():
     SNAP_DIR.mkdir(parents=True, exist_ok=True)
     STATUS.parent.mkdir(parents=True, exist_ok=True)
     t = now()
+    found = []  # この回で検出した変更(通知用)
     products = []
     for prod in conf["products"]:
         outs = []
@@ -122,6 +139,7 @@ def main():
                     removed = [l for l in prev if l not in ns]
                     if added or removed:
                         st["last_changed"] = t
+                        found.append((prod["name"], src["title"], src["url"], added, len(removed)))
                         st["changes"] = ([{"at": t, "added": added[:MAX_ADDED], "added_total": len(added),
                                            "removed_total": len(removed)}] + st["changes"])[:MAX_CHANGES]
                 else:
@@ -137,6 +155,7 @@ def main():
         products.append({"id": prod["id"], "name": prod["name"], "sources": outs})
     STATUS.write_text(json.dumps({"generated_at": t, "products": products}, ensure_ascii=False, indent=1) + "\n",
                       encoding="utf-8")
+    write_report(found)
     print(f"done: {sum(len(p['sources']) for p in products)} sources, "
           f"{sum(s['status'] == 'error' for p in products for s in p['sources'])} errors")
 
