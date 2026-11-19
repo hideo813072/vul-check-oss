@@ -1,0 +1,220 @@
+Roadmap
+Community
+Getting Started
+OpenSSL Communities
+GitHub Discussions
+Mailing Lists
+Community Support
+Code Of Conduct
+Thanks
+Support
+Sponsor
+Policies
+General
+Technical
+Contributor Agreements
+Release Strategy
+Downloads
+Resources
+News
+Blog
+FAQ
+GitHub Repository
+OpenSSL Documentation
+OpenSSL Guide
+OpenSSL Migration Guide
+Performance benchmarks
+OpenSSL Issues and PRs statistics
+About
+Contact
+Management
+Committers
+Sponsors
+ByLaws
+Search
+Roadmap
+Community
+Getting Started
+OpenSSL Communities
+GitHub Discussions
+Mailing Lists
+Community Support
+Code Of Conduct
+Thanks
+Support
+Sponsor
+Policies
+General
+Technical
+Contributor Agreements
+Release Strategy
+Downloads
+Resources
+News
+Blog
+FAQ
+GitHub Repository
+OpenSSL Documentation
+OpenSSL Guide
+OpenSSL Migration Guide
+Performance benchmarks
+OpenSSL Issues and PRs statistics
+About
+Contact
+Management
+Committers
+Sponsors
+ByLaws
+Downloads
+The master sources are maintained in our git
+repository, which is accessible on
+GitHub. Please submit bugs via
+a GitHub
+issue. If you
+would like to make a contribution, see “How to Contribute to
+OpenSSL.
+Since 3.0, the OpenSSL Library has been released under an Apache
+License v2.
+Supporting OpenSSL. Work on the OpenSSL Library is funded
+through the OpenSSL Corporation and the
+OpenSSL Foundation. You can support the
+project in two ways:
+Commercial support & sponsored development — take out a support
+contract for
+direct access to the maintainers, priority triage, FIPS rebranding,
+post-quantum help, and Extended LTS for older releases; or fund a
+specific feature or fix through a custom engagement. Contact
+sales@openssl.org.
+Donations and Sponsorship — make a
+gift
+to the OpenSSL Foundation to support the project’s public-good work
+or join our Code Protectors sponsorship
+program.
+The table below lists the latest releases for every branch. (For an explanation
+of the numbering, see our release strategy.)
+All releases can be found at /source/old.
+Series
+Filename
+Size
+Release
+End-of-Life
+Checksums
+4.1
+[openssl-4.1.0.tar.gz] openssl-4.1.0.tar.gz
+53.2MiB
+23 Oct 2026
+23 Nov 2027
+( [openssl-4.1.0.tar.gz.asc] PGP)
+( [openssl-4.1.0.tar.gz.sha1] SHA1)
+( [openssl-4.1.0.tar.gz.sha256] SHA256)
+4.0
+[openssl-4.0.3.tar.gz] openssl-4.0.3.tar.gz
+52.7MiB
+29 Sep 2026
+14 May 2027
+( [openssl-4.0.3.tar.gz.asc] PGP)
+( [openssl-4.0.3.tar.gz.sha1] SHA1)
+( [openssl-4.0.3.tar.gz.sha256] SHA256)
+3.5 [LTS]
+[openssl-3.5.9.tar.gz] openssl-3.5.9.tar.gz
+50.8MiB
+29 Sep 2026
+08 Apr 2030
+( [openssl-3.5.9.tar.gz.asc] PGP)
+( [openssl-3.5.9.tar.gz.sha1] SHA1)
+( [openssl-3.5.9.tar.gz.sha256] SHA256)
+Note: All versions not listed above are out of support and should
+not be used in production. For the full support lifecycle: per-release
+end-of-life dates, the LTS schedule, and what’s coming next; see the
+OpenSSL release lifecycle.
+Still on an end-of-life release? The OpenSSL Corporation’s Extended
+LTS provides continued security fixes for LTS
+releases past their end of life (currently 3.0, 1.1.1 and 1.0.2),
+giving you time to plan an upgrade. Contact sales@openssl.org.
+The following OpenSSL version(s) are FIPS validated:
+Version
+Certificate
+Security Policy
+FIPS Version
+3.1.2
+certificate
+security policy
+FIPS 140-3
+3.0.9
+certificate
+security policy
+FIPS 140-2
+3.0.8
+certificate
+security policy
+FIPS 140-2
+3.0.0
+certificate
+security policy
+FIPS 140-2
+For a list of CVEs and their impact on validated FIPS providers, visit the CVEs and FIPS page.
+Please follow the Security Policy instructions to download, build and
+install a validated OpenSSL FIPS provider.
+Other OpenSSL Releases MAY use the validated FIPS provider, but
+MUST NOT build and use their own FIPS provider. For example you can build
+OpenSSL 3.5 and use the OpenSSL 3.1.2 FIPS provider with it.
+Information about how to configure and use the FIPS provider in your
+applications is available on the FIPS module man page.
+You must also read the module security policy and follow the specific
+build and installation instructions included in it.
+For an overview of some of the key concepts in OpenSSL see the
+OpenSSL
+Guide.
+Information and notes about migrating existing applications to newer
+versions of OpenSSL are available in the OpenSSL Migration
+Guide.
+When building a release for the first time, please make sure to look at
+the INSTALL file in the distribution along with any NOTES file
+applicable to your platform. If you have problems, then join the
+openssl-users email list and post a
+question there.
+The current releases are signed by the OpenSSL signing certificate whose
+primary key has the fingerprint B146 647E 45A7 B339 47AB 226B 2A2C 87D1 6169
+2D40. Signatures are produced by the current signing subkey of this
+certificate, which is certified by the primary key. This fingerprint is the
+canonical trust anchor for verifying OpenSSL Library release artifacts.
+Earlier releases were signed by the OpenSSL key with fingerprint BA54 73A2
+B058 7B07 FB27 CF2D 2160 94DF D0CB 81EF. That key has been retired but
+remains published so that those releases can still be verified. It has also cross-certified the new signing certificate
+above: if you already trust the BA54 key, import [pubkeys.asc] pubkeys.asc
+and run gpg --check-sigs B146647E45A7B33947AB226B2A2C87D161692D40 to confirm
+the new certificate is genuine without re-checking its fingerprint by hand.
+This cross-certification is carried in pubkeys.asc but not on the key servers,
+which strip third-party signatures.
+Some older releases are signed with a key with the fingerprint EFC0
+A467 D613 CB83 C7ED 6D30 D894 E2CE 8B3D 79F5.
+Very old releases are signed with one of the keys listed in
+fingerprints.txt.
+The signing certificates are published both on this OpenSSL Library website,
+as [pubkeys.asc] pubkeys.asc, and on the key server hkps://keys.openpgp.org.
+The copy on this website is authoritative: where the key server and this
+website disagree, this website takes precedence. We recommend downloading
+[pubkeys.asc] pubkeys.asc and importing it with your PGP program — it is
+also the more complete copy, retaining cross-certifications and the revoked or
+superseded keys that the key server drops, which makes it especially useful
+for verifying an older release whose signing key is now revoked or has
+disappeared from the key servers.
+Each day we make a snapshot of each development branch. They can be
+found at https://www.openssl.org/source/snapshot/. These daily
+snapshots of the source tree are provided for convenience only and not
+even guaranteed to compile. Note that keeping a git local repository and
+updating it every 24 hours is equivalent and will often be faster and
+more efficient.
+more in this section
+Downloads
+Git Repository
+License
+Top of Downloads
+OpenSSL.org
+Library
+Mission
+Communities
+Corporation
+Foundation
+Projects
+Conference

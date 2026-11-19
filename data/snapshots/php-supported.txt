@@ -1,0 +1,193 @@
+Downloads
+Documentation
+Get Involved
+Help
+Search docs
+Upcoming Critical PHP Security Release
+Getting Started
+Introduction
+A simple tutorial
+Language Reference
+Basic syntax
+Types
+Variables
+Constants
+Expressions
+Operators
+Control Structures
+Functions
+Classes and Objects
+Namespaces
+Enumerations
+Error Handling
+Fibers
+Generators
+Attributes
+References Explained
+Predefined Variables
+Predefined Exceptions
+Predefined Interfaces and Classes
+Predefined Attributes
+Context options and parameters
+Supported Protocols and Wrappers
+Security
+Introduction
+General considerations
+Installed as CGI binary
+Installed as an Apache module
+Session Security
+Filesystem Security
+Database Security
+Error Reporting
+User Submitted Data
+Hiding PHP
+Keeping Current
+Features
+HTTP authentication with PHP
+Cookies
+Sessions
+Handling file uploads
+Using remote files
+Connection handling
+Persistent Database Connections
+Command line usage
+Garbage Collection
+DTrace Dynamic Tracing
+Function Reference
+Affecting PHP's Behaviour
+Audio Formats Manipulation
+Authentication Services
+Command Line Specific Extensions
+Compression and Archive Extensions
+Cryptography Extensions
+Database Extensions
+Date and Time Related Extensions
+File System Related Extensions
+Human Language and
+Character Encoding Support
+Image Processing and Generation
+Mail Related Extensions
+Mathematical Extensions
+Non-Text MIME Output
+Process Control Extensions
+Other Basic Extensions
+Other Services
+Search Engine Extensions
+Server Specific Extensions
+Session Extensions
+Text Processing
+Variable and Type Related Extensions
+Web Services
+Windows Only Extensions
+XML Manipulation
+GUI Extensions
+Keyboard Shortcuts
+?
+This help
+j
+Next menu item
+k
+Previous menu item
+g p
+Previous man page
+g n
+Next man page
+G
+Scroll to bottom
+g g
+Scroll to top
+g h
+Goto homepage
+g s
+Goto search
+(current page)
+/
+Focus search box
+Supported Versions
+Each release branch of PHP is fully supported for two years from its initial
+stable release. During this period, bugs and security issues that have been
+reported are fixed and are released in regular point releases.
+After this two year period of active support, each branch is then supported
+for two additional years for critical security issues only. Releases during
+this period are made on an as-needed basis: there may be multiple point
+releases, or none, depending on the number of reports.
+Once the four years of support are completed, the branch reaches its end of
+life and is no longer supported. A table of end of life
+branches is available.
+Currently Supported Versions
+Branch
+Initial Release
+Active Support Until
+Security Support Until
+Notes
+8.2
+8 Dec 2022
+3 years, 11 months ago
+31 Dec 2024
+1 year, 10 months ago
+31 Dec 2026
+in 1 month
+Migration guide for PHP 8.2
+8.3
+23 Nov 2023
+2 years, 11 months ago
+31 Dec 2025
+10 months ago
+31 Dec 2027
+in 1 year, 1 month
+Migration guide for PHP 8.3
+8.4
+21 Nov 2024
+1 year, 11 months ago
+31 Dec 2026
+in 1 month
+31 Dec 2028
+in 2 years, 1 month
+Migration guide for PHP 8.4
+8.5
+20 Nov 2025
+11 months ago
+31 Dec 2027
+in 1 year, 1 month
+31 Dec 2029
+in 3 years, 1 month
+Migration guide for PHP 8.5
+Or, visualised as a calendar:
+Key
+Active support
+A release that is being actively supported. Reported bugs and security
+issues are fixed and regular point releases are made.
+Security fixes only
+A release that is supported for critical security issues only. Releases
+are only made on an as-needed basis.
+End of life
+A release that is no longer supported. Users of this release should
+upgrade as soon as possible, as they may be exposed to unpatched security
+vulnerabilities.
+PHP is developed and maintained by a global community of contributors.
+The PHP Foundation helps fund this work.
+If PHP is part of your business or projects, consider sponsoring the Foundation.
+Linkedin
+@php@fosstodon.org
+GitHub
+Donate
+PHP
+My PHP.net
+Downloads
+Contact
+Other PHP.net sites
+Learn
+Documentation
+Get Involved
+Help
+The PHP Foundation
+About the Foundation
+Sponsor
+Contact
+Legal
+Privacy policy
+↑ and ↓ to navigate •
+Enter to select •
+Esc to close • / to open
+Press Enter without
+selection to search using Google

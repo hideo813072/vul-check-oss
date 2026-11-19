@@ -1,0 +1,139 @@
+Apache Tomcat®
+GO
+Apache Tomcat
+Home
+Taglibs
+Maven Plugin
+Download
+Which version?
+Tomcat 11
+Tomcat 10
+Tomcat 9
+Tomcat Migration Tool for Jakarta EE
+Tomcat Connectors
+Tomcat Native
+Taglibs
+Archives
+Documentation
+Tomcat 11.0
+Tomcat 10.1
+Tomcat 9.0
+Upgrading
+Tomcat Connectors
+Tomcat Native 2
+Tomcat Native 1.3
+Wiki
+Migration Guide
+Presentations
+Specifications
+Problems?
+Security Reports
+Find help
+FAQ
+Mailing Lists
+Bug Database
+Get Involved
+Overview
+Source code
+Buildbot
+Tools
+Media
+YouTube
+Misc
+Who We Are
+Swag
+Heritage
+Apache Home
+Resources
+Contact
+Legal
+Privacy
+Support Apache
+Sponsorship
+Thanks
+License
+Content
+Tomcat 11 Software Downloads
+Welcome to the Apache Tomcat® 11.x software download
+page. This page provides download links for obtaining the latest version of
+Tomcat 11.0.x software, as well as links to the archives of older releases.
+Unsure which version you need? Specification versions implemented,
+minimum Java version required and lots more useful information may be found
+on the 'which version?' page.
+Users of Tomcat 11 onwards should be aware that, as a result of the move
+from Java EE to Jakarta EE as part of the transfer of Java EE to the Eclipse
+Foundation, the primary package for all implemented APIs has changed from
+javax.* to jakarta.*. This will almost certainly
+require code changes to enable applications to migrate from Tomcat 9 and
+earlier to Tomcat 11 and later. A
+migration
+tool has been developed to aid this process.
+Quick Navigation
+KEYS |
+11.0.29 |
+Browse |
+Archives
+Release Integrity
+You must
+verify the
+integrity of the downloaded files. We provide OpenPGP signatures for every
+release file. This signature should be matched against the
+KEYS file
+which contains the OpenPGP keys of Tomcat's Release Managers. We also
+provide SHA-512 checksums for every release file. After you
+download the file, you should calculate a checksum for your download, and
+make sure it is the same as ours.
+Mirrors
+You are currently using https://dlcdn.apache.org/. If you
+encounter a problem with this mirror, please select another
+mirror. If all mirrors are failing, there are backup
+mirrors (at the end of the mirrors list) that should be
+available.
+Other mirrors:
+https://dlcdn.apache.org/https://dlcdn.apache.org/ (backup)
+11.0.29
+Please see the
+README
+file for packaging information. It explains what every distribution contains.
+Binary Distributions
+Core:
+[apache-tomcat-11.0.29.zip] zip
+( [apache-tomcat-11.0.29.zip.asc] pgp,
+[apache-tomcat-11.0.29.zip.sha512] sha512)
+[apache-tomcat-11.0.29.tar.gz] tar.gz
+( [apache-tomcat-11.0.29.tar.gz.asc] pgp,
+[apache-tomcat-11.0.29.tar.gz.sha512] sha512)
+[apache-tomcat-11.0.29-windows-x64.zip] Windows zip
+( [apache-tomcat-11.0.29-windows-x64.zip.asc] pgp,
+[apache-tomcat-11.0.29-windows-x64.zip.sha512] sha512)
+Windows Service Installer
+( [apache-tomcat-11.0.29.exe.asc] pgp,
+[apache-tomcat-11.0.29.exe.sha512] sha512)
+Full documentation:
+[apache-tomcat-11.0.29-fulldocs.tar.gz] tar.gz
+( [apache-tomcat-11.0.29-fulldocs.tar.gz.asc] pgp,
+[apache-tomcat-11.0.29-fulldocs.tar.gz.sha512] sha512)
+Deployer:
+[apache-tomcat-11.0.29-deployer.zip] zip
+( [apache-tomcat-11.0.29-deployer.zip.asc] pgp,
+[apache-tomcat-11.0.29-deployer.zip.sha512] sha512)
+[apache-tomcat-11.0.29-deployer.tar.gz] tar.gz
+( [apache-tomcat-11.0.29-deployer.tar.gz.asc] pgp,
+[apache-tomcat-11.0.29-deployer.tar.gz.sha512] sha512)
+Embedded:
+[apache-tomcat-11.0.29-embed.tar.gz] tar.gz
+( [apache-tomcat-11.0.29-embed.tar.gz.asc] pgp,
+[apache-tomcat-11.0.29-embed.tar.gz.sha512] sha512)
+[apache-tomcat-11.0.29-embed.zip] zip
+( [apache-tomcat-11.0.29-embed.zip.asc] pgp,
+[apache-tomcat-11.0.29-embed.zip.sha512] sha512)
+Source Code Distributions
+[apache-tomcat-11.0.29-src.tar.gz] tar.gz
+( [apache-tomcat-11.0.29-src.tar.gz.asc] pgp,
+[apache-tomcat-11.0.29-src.tar.gz.sha512] sha512)
+[apache-tomcat-11.0.29-src.zip] zip
+( [apache-tomcat-11.0.29-src.zip.asc] pgp,
+[apache-tomcat-11.0.29-src.zip.sha512] sha512)
+Apache Tomcat, Tomcat, Apache, the Apache Tomcat logo and the Apache logo
+are either registered trademarks or trademarks of the Apache Software
+Foundation.

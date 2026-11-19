@@ -1,0 +1,68 @@
+Index of /dist/httpd
+Apache HTTP Server Source Code Distributions
+This download page includes only the sources to compile
+and build Apache yourself with the proper tools.
+Important Notices
+Current Releases
+Older Releases
+PGP Signatures
+Official Patches
+Name Last modified Size Description
+Parent Directory - HTTP Server project
+binaries/ 2026-05-01 16:49 - Binary distributions
+docs/ 2026-05-01 16:49 - Extra documentation packages
+mod_fcgid/ 2026-05-01 16:49 - HTTP Server project
+mod_ftp/ 2026-05-01 16:49 - HTTP Server project
+patches/ 2026-05-01 16:49 - Official patches
+Announcement2.4.html 2026-11-11 10:13 2.6K HTTP Server project
+Announcement2.4.txt 2026-11-11 10:13 1.8K HTTP Server project
+CHANGES_2.4 2026-11-11 11:16 407K HTTP Server project
+CHANGES_2.4.71 2026-11-11 11:16 3.1K HTTP Server project
+CURRENT-IS-2.4.71 2026-11-11 11:16 0 HTTP Server project
+KEYS 2021-09-01 13:38 537K Developer PGP/GPG keys
+[META.asc] META.asc 2018-03-09 10:33 801 PGP signature
+[httpd-2.4.71.tar.bz2] httpd-2.4.71.tar.bz2 2026-11-11 10:13 8.2M HTTP Server project
+[httpd-2.4.71.tar.bz2.asc] httpd-2.4.71.tar.bz2.asc 2026-11-11 10:13 870 PGP signature
+[httpd-2.4.71.tar.bz2.sha256] httpd-2.4.71.tar.bz2.sha256 2026-11-11 10:13 87 HTTP Server project
+[httpd-2.4.71.tar.bz2.sha512] httpd-2.4.71.tar.bz2.sha512 2026-11-11 10:13 151 HTTP Server project
+[httpd-2.4.71.tar.gz] httpd-2.4.71.tar.gz 2026-11-11 10:13 10M HTTP Server project
+[httpd-2.4.71.tar.gz.asc] httpd-2.4.71.tar.gz.asc 2026-11-11 10:13 870 PGP signature
+[httpd-2.4.71.tar.gz.sha256] httpd-2.4.71.tar.gz.sha256 2026-11-11 10:13 86 HTTP Server project
+[httpd-2.4.71.tar.gz.sha512] httpd-2.4.71.tar.gz.sha512 2026-11-11 10:13 150 HTTP Server project
+httpd_logo_wide_new.png 2016-12-21 20:14 19K HTTP Server project
+Current Releases
+For details on current releases, please see the
+Apache HTTP
+Server Download Page.
+Older Releases
+Only current, recommended releases are available on www.apache.org
+and the mirror sites. Older releases can be obtained from the archive site.
+PGP Signatures
+All of the release distribution packages have been digitally signed
+(using PGP or GPG) by the Apache Group members that constructed them.
+There will be an accompanying distribution.asc file
+in the same directory as the distribution. The PGP keys can be found
+at the MIT key repository and within this project's
+KEYS file.
+Always use the signature files to verify the authenticity
+of the distribution, e.g.,
+% pgpk -a KEYS
+% pgpv httpd-2.2.8.tar.gz.asc
+or,
+% pgp -ka KEYS
+% pgp httpd-2.2.8.tar.gz.asc
+or,
+% gpg --import KEYS
+% gpg --verify httpd-2.2.8.tar.gz.asc
+We offer MD5 hashes as an alternative to validate the integrity
+of the downloaded files. A unix program called md5 or
+md5sum is included in many unix distributions. It is
+also available as part of GNU
+Textutils. Windows users can get binary md5 programs from here, here, or
+here.
+Official Patches
+When we have patches to a minor bug or two, or features which we
+haven't yet included in a new release, we will put them in the
+patches
+subdirectory so people can get access to it before we roll another
+complete release.
