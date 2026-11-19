@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>通知メールのイメージ</title>
+<style>
+body{margin:0;background:#eef0f3;font:14px/1.7 system-ui,-apple-system,"Hiragino Sans","Noto Sans JP",sans-serif;color:#1f2328}
+.note{max-width:720px;margin:12px auto 0;padding:0 16px;color:#6b7280;font-size:12px}
+.mail{max-width:720px;margin:8px auto 24px;background:#fff;border:1px solid #d8dce1;border-radius:8px;overflow:hidden}
+.hd{padding:14px 20px;border-bottom:1px solid #e5e7eb;background:#f8f9fa;font-size:13px}
+.hd div{margin:2px 0}.hd span{color:#6b7280;display:inline-block;width:3.2em}
+.subj{font-size:16px;font-weight:700;margin-bottom:6px}
+.bd{padding:20px}
+h3{font-size:15px;margin:18px 0 2px}h3 a{color:#0969da;text-decoration:none}
+.cnt{color:#6b7280;font-size:13px;margin:0 0 4px}
+ul{margin:4px 0 0;padding-left:20px}li{margin:2px 0}
+.ft{padding:12px 20px;border-top:1px solid #e5e7eb;color:#6b7280;font-size:12px}
+.ft a{color:#0969da}
+</style></head><body>
+<p class="note">※ イメージ（サンプル）です。内容は架空で、実際のレイアウトは GitHub の通知メールの形式になります。</p>
+<div class="mail">
+  <div class="hd">
+    <div class="subj">[hideo813072/vul-check-oss] [Vuln Watch] 更新検出 2026-11-20 03:07 UTC (#1)</div>
+    <div><span>差出人</span>github-actions[bot] &lt;notifications@github.com&gt;</div>
+    <div><span>宛先</span>hideo813072/vul-check-oss &lt;vul-check-oss@noreply.github.com&gt;</div>
+  </div>
+  <div class="bd">
+    <p>2 件のページで更新を検出しました。</p>
+
+    <h3>OpenSSL / <a href="#">脆弱性一覧</a></h3>
+    <p class="cnt">追加 2 行 / 削除 0 行</p>
+    <ul>
+      <li>（サンプル）新しい脆弱性の見出し行がここに入ります</li>
+      <li>（サンプル）公開日や深刻度などの行がここに入ります</li>
+    </ul>
+
+    <h3>Apache Tomcat / <a href="#">セキュリティ情報 (10.1.x)</a></h3>
+    <p class="cnt">追加 1 行 / 削除 1 行</p>
+    <ul>
+      <li>（サンプル）修正バージョンの記載行がここに入ります</li>
+    </ul>
+  </div>
+  <div class="ft">
+    <a href="#">View it on GitHub</a> で確認できます。<br>
+    このメールは、リポジトリを Watch しているため届いています。通知設定は GitHub の Settings → Notifications で変更できます。
+  </div>
+</div>
+</body></html>
