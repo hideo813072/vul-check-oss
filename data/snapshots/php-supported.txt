@@ -3,7 +3,7 @@ Documentation
 Get Involved
 Help
 Search docs
-PHP 8.5.13 Released!
+PHP 8.6.0 Released!
 Getting Started
 Introduction
 A simple tutorial
@@ -152,6 +152,14 @@ in 1 year, 1 month
 31 Dec 2029
 in 3 years, 1 month
 Migration guide for PHP 8.5
+8.6
+19 Nov 2026
+midnight
+31 Dec 2028
+in 2 years, 1 month
+31 Dec 2030
+in 4 years, 1 month
+Migration guide for PHP 8.6
 Or, visualised as a calendar:
 Key
 Active support
