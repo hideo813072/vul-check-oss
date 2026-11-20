@@ -146,7 +146,7 @@ in 2 years, 1 month
 Migration guide for PHP 8.4
 8.5
 20 Nov 2025
-11 months ago
+1 year ago
 31 Dec 2027
 in 1 year, 1 month
 31 Dec 2029
@@ -154,7 +154,7 @@ in 3 years, 1 month
 Migration guide for PHP 8.5
 8.6
 19 Nov 2026
-midnight
+1 day ago
 31 Dec 2028
 in 2 years, 1 month
 31 Dec 2030
