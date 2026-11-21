@@ -90,7 +90,7 @@ mirror. If all mirrors are failing, there are backup
 mirrors (at the end of the mirrors list) that should be
 available.
 Other mirrors:
-https://dlcdn.apache.org/https://dlcdn.apache.org/ (backup)
+https://dlcdn.apache.org/https://downloads.apache.org/ (backup)
 11.0.29
 Please see the
 README
