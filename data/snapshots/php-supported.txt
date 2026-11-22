@@ -3,7 +3,7 @@ Documentation
 Get Involved
 Help
 Search docs
-PHP 8.6.0 Released!
+PHP Conference Kansai 2026 (JAPAN)
 Getting Started
 Introduction
 A simple tutorial
@@ -154,7 +154,7 @@ in 3 years, 1 month
 Migration guide for PHP 8.5
 8.6
 19 Nov 2026
-2 days ago
+3 days ago
 31 Dec 2028
 in 2 years, 1 month
 31 Dec 2030
