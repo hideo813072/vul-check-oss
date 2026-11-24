@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-24T05:56:41Z",
+ "generated_at": "2026-11-24T17:32:34Z",
  "products": [
   {
    "id": "php",
@@ -9,7 +9,7 @@
      "id": "php-releases",
      "title": "リリース一覧 (JSON)",
      "url": "https://www.php.net/releases/?json",
-     "last_checked": "2026-11-24T05:56:41Z",
+     "last_checked": "2026-11-24T17:32:34Z",
      "last_changed": "2026-11-19T15:49:58Z",
      "changes": [
       {
@@ -31,9 +31,17 @@
      "id": "php-changelog8",
      "title": "ChangeLog 8.x",
      "url": "https://www.php.net/ChangeLog-8.php",
-     "last_checked": "2026-11-24T05:56:41Z",
-     "last_changed": "2026-11-23T21:15:01Z",
+     "last_checked": "2026-11-24T17:32:34Z",
+     "last_changed": "2026-11-24T17:32:34Z",
      "changes": [
+      {
+       "at": "2026-11-24T17:32:34Z",
+       "added": [
+        "PHP 8.6.0 Released!"
+       ],
+       "added_total": 1,
+       "removed_total": 1
+      },
       {
        "at": "2026-11-23T21:15:01Z",
        "added": [
@@ -100,7 +108,7 @@
      "id": "php-supported",
      "title": "サポート状況",
      "url": "https://www.php.net/supported-versions.php",
-     "last_checked": "2026-11-24T05:56:41Z",
+     "last_checked": "2026-11-24T17:32:34Z",
      "last_changed": "2026-11-24T05:56:41Z",
      "changes": [
       {
@@ -186,7 +194,7 @@
      "id": "httpd-vuln24",
      "title": "脆弱性情報 (2.4)",
      "url": "https://httpd.apache.org/security/vulnerabilities_24.html",
-     "last_checked": "2026-11-24T05:56:41Z",
+     "last_checked": "2026-11-24T17:32:34Z",
      "last_changed": null,
      "changes": [],
      "baseline_at": "2026-11-19T12:29:04Z",
@@ -199,7 +207,7 @@
      "id": "httpd-download",
      "title": "ダウンロードページ",
      "url": "https://httpd.apache.org/download.cgi",
-     "last_checked": "2026-11-24T05:56:41Z",
+     "last_checked": "2026-11-24T17:32:34Z",
      "last_changed": null,
      "changes": [],
      "baseline_at": "2026-11-19T12:29:04Z",
@@ -212,7 +220,7 @@
      "id": "httpd-dist",
      "title": "配布ディレクトリ",
      "url": "https://downloads.apache.org/httpd/",
-     "last_checked": "2026-11-24T05:56:41Z",
+     "last_checked": "2026-11-24T17:32:34Z",
      "last_changed": null,
      "changes": [],
      "baseline_at": "2026-11-19T12:29:04Z",
@@ -231,7 +239,7 @@
      "id": "tomcat-sec11",
      "title": "セキュリティ情報 (11.x)",
      "url": "https://tomcat.apache.org/security-11.html",
-     "last_checked": "2026-11-24T05:56:41Z",
+     "last_checked": "2026-11-24T17:32:34Z",
      "last_changed": "2026-11-19T21:25:16Z",
      "changes": [
       {
@@ -292,7 +300,7 @@
      "id": "tomcat-sec10",
      "title": "セキュリティ情報 (10.1.x)",
      "url": "https://tomcat.apache.org/security-10.html",
-     "last_checked": "2026-11-24T05:56:41Z",
+     "last_checked": "2026-11-24T17:32:34Z",
      "last_changed": "2026-11-19T21:25:16Z",
      "changes": [
       {
@@ -353,7 +361,7 @@
      "id": "tomcat-sec9",
      "title": "セキュリティ情報 (9.x)",
      "url": "https://tomcat.apache.org/security-9.html",
-     "last_checked": "2026-11-24T05:56:41Z",
+     "last_checked": "2026-11-24T17:32:34Z",
      "last_changed": "2026-11-19T21:25:16Z",
      "changes": [
       {
@@ -414,7 +422,7 @@
      "id": "tomcat-dl11",
      "title": "ダウンロード (11.x)",
      "url": "https://tomcat.apache.org/download-11.cgi",
-     "last_checked": "2026-11-24T05:56:41Z",
+     "last_checked": "2026-11-24T17:32:34Z",
      "last_changed": "2026-11-24T05:56:41Z",
      "changes": [
       {
@@ -476,7 +484,7 @@
      "id": "tomcat-dl10",
      "title": "ダウンロード (10.1.x)",
      "url": "https://tomcat.apache.org/download-10.cgi",
-     "last_checked": "2026-11-24T05:56:41Z",
+     "last_checked": "2026-11-24T17:32:34Z",
      "last_changed": null,
      "changes": [],
      "baseline_at": "2026-11-19T12:29:04Z",
@@ -489,7 +497,7 @@
      "id": "tomcat-dl9",
      "title": "ダウンロード (9.x)",
      "url": "https://tomcat.apache.org/download-90.cgi",
-     "last_checked": "2026-11-24T05:56:41Z",
+     "last_checked": "2026-11-24T17:32:34Z",
      "last_changed": "2026-11-21T01:25:59Z",
      "changes": [
       {
@@ -541,7 +549,7 @@
      "id": "node-vuln",
      "title": "脆弱性ブログ",
      "url": "https://nodejs.org/en/blog/vulnerability",
-     "last_checked": "2026-11-24T05:56:41Z",
+     "last_checked": "2026-11-24T17:32:34Z",
      "last_changed": null,
      "changes": [],
      "baseline_at": "2026-11-19T12:29:04Z",
@@ -554,7 +562,7 @@
      "id": "node-dist",
      "title": "リリース一覧 (dist/index.json)",
      "url": "https://nodejs.org/dist/index.json",
-     "last_checked": "2026-11-24T05:56:41Z",
+     "last_checked": "2026-11-24T17:32:34Z",
      "last_changed": null,
      "changes": [],
      "baseline_at": "2026-11-19T12:29:04Z",
@@ -573,20 +581,68 @@
      "id": "openssl-vuln",
      "title": "脆弱性一覧",
      "url": "https://openssl-library.org/news/vulnerabilities/",
-     "last_checked": "2026-11-24T05:56:41Z",
-     "last_changed": null,
-     "changes": [],
+     "last_checked": "2026-11-24T17:32:34Z",
+     "last_changed": "2026-11-24T17:32:34Z",
+     "changes": [
+      {
+       "at": "2026-11-24T17:32:34Z",
+       "added": [
+        "CVE-2026-84785",
+        "24 November 2026",
+        "Unbounded Out-of-Order Fragment Reassembly in QUIC Streams",
+        "Duc Anh Luu (University of Melbourne) and Jiwoo Kim (Arpe)",
+        "Duc Anh Luu (University of Melbourne)",
+        "Issue summary: A QUIC peer that sends many small out-of-order STREAM fragments",
+        "while withholding the first byte of the stream may cause OpenSSL to buffer",
+        "a large number of reassembly nodes occupying much larger memory than",
+        "the actual data sent.",
+        "Impact summary: A remote peer can pin large amounts of memory on a server that",
+        "accepts incoming QUIC streams, potentially exhausting memory and causing",
+        "Description: QUIC receive flow control limits the highest byte offset a peer",
+        "may reach on a stream. It does not limit how many out-of-order fragments the",
+        "receiver buffers. OpenSSL allocates a reassembly node for each non-adjacent",
+        "STREAM fragment and never caps the count. A peer that opens a stream and sends",
+        "many one-byte fragments at increasing offsets, while withholding the first",
+        "byte, makes the receiver retain one node per fragment without delivering any",
+        "Only applications that accept incoming streams are exposed. With the default",
+        "policy, which rejects peer-initiated streams, the stream is torn down before",
+        "state accumulates. Because the read side never advances past the missing",
+        "prefix, the flow control window never slides and the nodes stay pinned for the",
+        "life of the connection.",
+        "The per-stream window bounds the highest offset, so the memory one stream can",
+        "pin is finite, but it can reach tens of megabytes and, across many streams and",
+        "connections, drive memory pressure and Denial of Service. The severity is",
+        "limited because the exhaustion is bounded by flow control and requires a",
+        "non-default configuration.",
+        "CVE-2026-107494",
+        "24 November 2026",
+        "Unbounded QUIC RETIRE_CONNECTION_ID Frame Sending Queue",
+        "moltenbit, Duc Anh Luu (University of Melbourne) and hataehoon",
+        "Alexandr Nedvědický",
+        "Issue summary: The QUIC stack queues a RETIRE_CONNECTION_ID frame also for",
+        "retransmitted NEW_CONNECTION_ID frames. This allows a remote malicious",
+        "QUIC stack to queue an unlimited number of RETIRE_CONNECTION_ID frames.",
+        "Impact summary: A malicious remote QUIC peer can trigger an out-of-memory",
+        "condition causing a Denial of Service.",
+        "Description: The earlier fix for CVE-2026-84784 was not complete. It",
+        "failed to ignore retransmissions of the NEW_CONNECTION_ID frame. The QUIC",
+        "implementation created and inserted a RETIRE_CONNECTION_ID frame for every"
+       ],
+       "added_total": 96,
+       "removed_total": 0
+      }
+     ],
      "baseline_at": "2026-11-19T12:29:04Z",
      "status": "ok",
      "error": null,
-     "lines": 7772,
+     "lines": 7950,
      "consecutive_errors": 0
     },
     {
      "id": "openssl-news",
      "title": "ニュース",
      "url": "https://openssl-library.org/news/",
-     "last_checked": "2026-11-24T05:56:41Z",
+     "last_checked": "2026-11-24T17:32:34Z",
      "last_changed": null,
      "changes": [],
      "baseline_at": "2026-11-19T12:29:04Z",
@@ -599,7 +655,7 @@
      "id": "openssl-source",
      "title": "ソース/リリース",
      "url": "https://openssl-library.org/source/",
-     "last_checked": "2026-11-24T05:56:41Z",
+     "last_checked": "2026-11-24T17:32:34Z",
      "last_changed": null,
      "changes": [],
      "baseline_at": "2026-11-19T12:29:04Z",
@@ -618,7 +674,7 @@
      "id": "openssh-security",
      "title": "セキュリティ情報",
      "url": "https://www.openssh.com/security.html",
-     "last_checked": "2026-11-24T05:56:41Z",
+     "last_checked": "2026-11-24T17:32:34Z",
      "last_changed": null,
      "changes": [],
      "baseline_at": "2026-11-19T12:29:04Z",
@@ -631,7 +687,7 @@
      "id": "openssh-release",
      "title": "リリースノート",
      "url": "https://www.openssh.com/releasenotes.html",
-     "last_checked": "2026-11-24T05:56:41Z",
+     "last_checked": "2026-11-24T17:32:34Z",
      "last_changed": null,
      "changes": [],
      "baseline_at": "2026-11-19T12:29:04Z",
