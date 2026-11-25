@@ -3,7 +3,7 @@ Documentation
 Get Involved
 Help
 Search docs
-PHP 8.6.0 Released!
+PHP Conference Kansai 2026 (JAPAN)
 Getting Started
 Introduction
 A simple tutorial
