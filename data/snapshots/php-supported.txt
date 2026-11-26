@@ -3,7 +3,7 @@ Documentation
 Get Involved
 Help
 Search docs
-Laracon EU 2027
+phpday 2027 - Call for Papers
 Getting Started
 Introduction
 A simple tutorial

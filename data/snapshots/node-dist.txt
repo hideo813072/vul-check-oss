@@ -1,3 +1,4 @@
+{"date": "2026-11-25", "lts": false, "security": false, "version": "v27.0.0-alpha.0.2.0"}
 {"date": "2026-11-16", "lts": false, "security": false, "version": "v27.0.0-alpha.0.1.1"}
 {"date": "2026-11-12", "lts": false, "security": false, "version": "v27.0.0-alpha.0.1.0"}
 {"date": "2026-10-29", "lts": false, "security": false, "version": "v27.0.0-alpha.0.0.0"}
@@ -27,4 +28,3 @@
 {"date": "2026-03-10", "lts": false, "security": false, "version": "v25.8.1"}
 {"date": "2026-03-03", "lts": false, "security": false, "version": "v25.8.0"}
 {"date": "2026-02-24", "lts": false, "security": false, "version": "v25.7.0"}
-{"date": "2026-02-09", "lts": false, "security": false, "version": "v25.6.1"}
