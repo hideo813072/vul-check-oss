@@ -3,7 +3,7 @@ Documentation
 Get Involved
 Help
 Search docs
-PHP Conference Kansai 2026 (JAPAN)
+phpday 2027 - Call for Papers
 Getting Started
 Introduction
 A simple tutorial
