@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-27T18:52:23Z",
+ "generated_at": "2026-11-28T01:54:35Z",
  "products": [
   {
    "id": "php",
@@ -9,7 +9,7 @@
      "id": "php-releases",
      "title": "リリース一覧 (JSON)",
      "url": "https://www.php.net/releases/?json",
-     "last_checked": "2026-11-27T18:52:23Z",
+     "last_checked": "2026-11-28T01:54:35Z",
      "last_changed": "2026-11-19T15:49:58Z",
      "changes": [
       {
@@ -31,7 +31,7 @@
      "id": "php-changelog8",
      "title": "ChangeLog 8.x",
      "url": "https://www.php.net/ChangeLog-8.php",
-     "last_checked": "2026-11-27T18:52:23Z",
+     "last_checked": "2026-11-28T01:54:35Z",
      "last_changed": "2026-11-27T18:52:23Z",
      "changes": [
       {
@@ -140,7 +140,7 @@
      "id": "php-supported",
      "title": "サポート状況",
      "url": "https://www.php.net/supported-versions.php",
-     "last_checked": "2026-11-27T18:52:23Z",
+     "last_checked": "2026-11-28T01:54:35Z",
      "last_changed": "2026-11-27T08:12:58Z",
      "changes": [
       {
@@ -244,7 +244,7 @@
      "id": "httpd-vuln24",
      "title": "脆弱性情報 (2.4)",
      "url": "https://httpd.apache.org/security/vulnerabilities_24.html",
-     "last_checked": "2026-11-27T18:52:23Z",
+     "last_checked": "2026-11-28T01:54:35Z",
      "last_changed": null,
      "changes": [],
      "baseline_at": "2026-11-19T12:29:04Z",
@@ -257,7 +257,7 @@
      "id": "httpd-download",
      "title": "ダウンロードページ",
      "url": "https://httpd.apache.org/download.cgi",
-     "last_checked": "2026-11-27T18:52:23Z",
+     "last_checked": "2026-11-28T01:54:35Z",
      "last_changed": null,
      "changes": [],
      "baseline_at": "2026-11-19T12:29:04Z",
@@ -270,7 +270,7 @@
      "id": "httpd-dist",
      "title": "配布ディレクトリ",
      "url": "https://downloads.apache.org/httpd/",
-     "last_checked": "2026-11-27T18:52:23Z",
+     "last_checked": "2026-11-28T01:54:35Z",
      "last_changed": null,
      "changes": [],
      "baseline_at": "2026-11-19T12:29:04Z",
@@ -289,7 +289,7 @@
      "id": "tomcat-sec11",
      "title": "セキュリティ情報 (11.x)",
      "url": "https://tomcat.apache.org/security-11.html",
-     "last_checked": "2026-11-27T18:52:23Z",
+     "last_checked": "2026-11-28T01:54:35Z",
      "last_changed": "2026-11-19T21:25:16Z",
      "changes": [
       {
@@ -350,7 +350,7 @@
      "id": "tomcat-sec10",
      "title": "セキュリティ情報 (10.1.x)",
      "url": "https://tomcat.apache.org/security-10.html",
-     "last_checked": "2026-11-27T18:52:23Z",
+     "last_checked": "2026-11-28T01:54:35Z",
      "last_changed": "2026-11-19T21:25:16Z",
      "changes": [
       {
@@ -411,7 +411,7 @@
      "id": "tomcat-sec9",
      "title": "セキュリティ情報 (9.x)",
      "url": "https://tomcat.apache.org/security-9.html",
-     "last_checked": "2026-11-27T18:52:23Z",
+     "last_checked": "2026-11-28T01:54:35Z",
      "last_changed": "2026-11-19T21:25:16Z",
      "changes": [
       {
@@ -472,7 +472,7 @@
      "id": "tomcat-dl11",
      "title": "ダウンロード (11.x)",
      "url": "https://tomcat.apache.org/download-11.cgi",
-     "last_checked": "2026-11-27T18:52:23Z",
+     "last_checked": "2026-11-28T01:54:35Z",
      "last_changed": "2026-11-27T18:52:23Z",
      "changes": [
       {
@@ -558,7 +558,7 @@
      "id": "tomcat-dl10",
      "title": "ダウンロード (10.1.x)",
      "url": "https://tomcat.apache.org/download-10.cgi",
-     "last_checked": "2026-11-27T18:52:23Z",
+     "last_checked": "2026-11-28T01:54:35Z",
      "last_changed": "2026-11-27T18:52:23Z",
      "changes": [
       {
@@ -604,7 +604,7 @@
      "id": "tomcat-dl9",
      "title": "ダウンロード (9.x)",
      "url": "https://tomcat.apache.org/download-90.cgi",
-     "last_checked": "2026-11-27T18:52:23Z",
+     "last_checked": "2026-11-28T01:54:35Z",
      "last_changed": "2026-11-27T18:52:23Z",
      "changes": [
       {
@@ -688,7 +688,7 @@
      "id": "node-vuln",
      "title": "脆弱性ブログ",
      "url": "https://nodejs.org/en/blog/vulnerability",
-     "last_checked": "2026-11-27T18:52:23Z",
+     "last_checked": "2026-11-28T01:54:35Z",
      "last_changed": "2026-11-26T15:01:56Z",
      "changes": [
       {
@@ -710,7 +710,7 @@
      "id": "node-dist",
      "title": "リリース一覧 (dist/index.json)",
      "url": "https://nodejs.org/dist/index.json",
-     "last_checked": "2026-11-27T18:52:23Z",
+     "last_checked": "2026-11-28T01:54:35Z",
      "last_changed": "2026-11-26T15:01:56Z",
      "changes": [
       {
@@ -738,7 +738,7 @@
      "id": "openssl-vuln",
      "title": "脆弱性一覧",
      "url": "https://openssl-library.org/news/vulnerabilities/",
-     "last_checked": "2026-11-27T18:52:23Z",
+     "last_checked": "2026-11-28T01:54:35Z",
      "last_changed": "2026-11-24T17:32:34Z",
      "changes": [
       {
@@ -799,7 +799,7 @@
      "id": "openssl-news",
      "title": "ニュース",
      "url": "https://openssl-library.org/news/",
-     "last_checked": "2026-11-27T18:52:23Z",
+     "last_checked": "2026-11-28T01:54:35Z",
      "last_changed": null,
      "changes": [],
      "baseline_at": "2026-11-19T12:29:04Z",
@@ -812,7 +812,7 @@
      "id": "openssl-source",
      "title": "ソース/リリース",
      "url": "https://openssl-library.org/source/",
-     "last_checked": "2026-11-27T18:52:23Z",
+     "last_checked": "2026-11-28T01:54:35Z",
      "last_changed": null,
      "changes": [],
      "baseline_at": "2026-11-19T12:29:04Z",
@@ -831,7 +831,7 @@
      "id": "openssh-security",
      "title": "セキュリティ情報",
      "url": "https://www.openssh.com/security.html",
-     "last_checked": "2026-11-27T18:52:23Z",
+     "last_checked": "2026-11-28T01:54:35Z",
      "last_changed": null,
      "changes": [],
      "baseline_at": "2026-11-19T12:29:04Z",
@@ -844,7 +844,7 @@
      "id": "openssh-release",
      "title": "リリースノート",
      "url": "https://www.openssh.com/releasenotes.html",
-     "last_checked": "2026-11-27T18:52:23Z",
+     "last_checked": "2026-11-28T01:54:35Z",
      "last_changed": null,
      "changes": [],
      "baseline_at": "2026-11-19T12:29:04Z",
